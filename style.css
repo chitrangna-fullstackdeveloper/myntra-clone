@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 4px 2px grey;
+    box-sizing: border-box;
+}
+.logo{
+    width: 1vw;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+.search-int{
+    width: 20rem;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    box-shadow: inset 0 0 2px 20px rgba(223, 219, 219, 0.215);
+    align-items: center;
+}
+.container{
+    
+
+}
+.main{
+
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+#sale{
+    width: 80%;
+    height:300px;
+
+}
