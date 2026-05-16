@@ -18,8 +18,14 @@ header{
     box-shadow: 0 0 4px 2px grey;
     box-sizing: border-box;
 }
-.logo{
-    width: 1vw;
+.myntra-logo{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.logo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nav-link{
     display: flex;
@@ -43,9 +49,14 @@ a:hover{
     text-decoration: underline;
 
 }
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .search-int{
-    width: 20rem;
-    padding: 0.5rem 0.5rem;
+    width: 30rem;
+    padding: 0.6rem 0.5rem;
     border: none;
     border-radius: 0.2rem;
     box-shadow: inset 0 0 2px 20px rgba(223, 219, 219, 0.215);
@@ -66,8 +77,8 @@ a:hover{
     
 }
 #sale{
-    width: 80%;
-    height:300px;
+    width: 90%;
+    height:100px;
 
 }
 
@@ -76,13 +87,64 @@ a:hover{
     justify-content: center;
     align-items: center;
     margin-top:2rem;
-    
-
-
 }
-
-
 .sumer-img{
     width: 80rem;
-  
+}
+.budget-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.budget-image{
+    width: 80rem;
+}
+.friendly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.budget-friendly{
+    width: 80rem;
+}
+.grid-boxes{
+
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-banner{
+    width: 80rem;
+
+}
+footer{
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+    font-size: 1rem;
+    background-color: whitesmoke;
+
+}
+.link-cont{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto 100px;
+}
+.online-shopping{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1rem;
+    
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+h2{
+    font-size: 1rem;
 }
