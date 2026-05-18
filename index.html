@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="https://myntra.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <!---------------------------------navbar-------------------------------------------->
@@ -16,48 +17,66 @@
             <img class="myntra-logo" src="https://static.toiimg.com/photo/imgsize-282668,msid-80601325/80601325.jpg">
         </div>
     <div class="nav-link">
+<!----------------------------------------Nav-ul-class-nav-ul--------------------------------------->
         <ul class="nav-ul">
             <li>
-                <a href="#">MEN</a>
+                <a class="nav-li-a" href="#">MEN</a>
             </li>
             <li>
-                <a href="#">WOMEN</a>
+                <a class="nav-li-a" href="#">WOMEN</a>
             </li>
             <li>
-                <a href="#">KIDS</a>
+                <a class="nav-li-a" href="#">KIDS</a>
             </li>
             <li>
-                <a href="#">HOME</a>
+                <a class="nav-li-a" href="#">HOME</a>
             </li>
             <li>
-                <a href="#">BEAUTY</a>
+                <a class="nav-li-a" href="#">BEAUTY</a>
             </li>
             <li>
-                <a href="#">GENZ</a>
+                <a class="nav-li-a" href="#">GENZ</a>
             </li>
             <li>
-                <a href="#">STUDIO</a>
+                <a class="nav-li-a" href="#">STUDIO</a>
             </li>
         </ul>
+<!------------------------------------------nav-ul-end-here------------------------------------------>
     </div>
+<!---------------------------------------search-container-and-child--------------------------------->
         <div id="search">
+            <a class="search-icon" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
             <input class="search-int" type="text" placeholder="search for products,brands and more">
         </div>
+<!--------------------------------------Search-container-end-here---------------------------------->
+
+<!------------------------------------icon-container-start-here------------------------------------>
         <div class="logo">
-            <ul>
-                <li>
-                    <a href=""><i class="fa-solid fa-users"></i></a>
+            <ul class="icon-ul">
+                <li class="icon-li">
+                    <a id="icon-a" href=""><i class="fa-regular fa-user"></i></a>
+                    <span id="span-icon">profile</span>
+                </li>
+                <li class="icon-li">
+                    <a id="icon-a" href=""><i class="fa-regular fa-heart"></i></a>
+                    <span id="span-icon">wishlist</span>
+                </li>
+                <li class="icon-li">
+                    <a id="icon-a" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                    <span id="span-icon">Bag</span>
                 </li>
             </ul>
-
         </div>
+<!----------------------------------icon-container-end-here----------------------------------------->
     </header>
+<!---------------------------------------header-end-here------------------------------------------->
 
-    <!-----------------------------------navbar-ending---------------------------------------------->
+<!---------------------------------------navbar-ending---------------------------------------------->
 
     <div class="container">
-    <!-------------------------------Sale-image-with 2 divs ----------------------------------------->
+<!--------------------------------------parent-container------------------------------------------->
         <div class="main">
+<!----------------------------------sale-image-of-4-images------------------------------------------>
             <div class="image">
                 <img id="sale" src="sale logo.png">
             </div>
@@ -70,19 +89,56 @@
             <div class="friendly">
                 <img class="budget-friendly"  src="budget-friendly.png">
             </div>
+<!------------------------------------sale-4-image-end-here----------------------------------------->
+
+<!---------------------------------------grid-boxes-start-here-------------------------------------->            
             <div class="grid-boxes">
-                <div class="boxes"></div>
-                <div class="boxes"></div>
-                <div class="boxes"></div>
-                <div class="boxes"></div>
-                <div class="boxes"></div>
+<!---------------------------------------child-of-grid-boxes---------------------------------------->
+                <div class="boxes">
+                    <a>
+                        <img class="scroler-img" src="shampoo.jfif">
+                    </a>
+                </div>
+                <div class="boxes">
+                    <a>
+                        <img class="scroler-img" src="dove.jfif">
+                    </a>
+                </div>
+                <div class="boxes">
+                    <a>
+                        <img class="scroler-img" src="women-cloth.jfif">
+                    </a>
+                </div>
+                <div class="boxes">
+                    <a>
+                        <img class="scroler-img" src="bedsheet-image.jfif">
+                    </a>
+                </div>
+                <div class="boxes">
+                    <a>
+                        <img class="scroler-img" src="backpack.jfif">
+                    </a>
+                </div>
+                <div class="boxes">
+                    <a>
+                        <img class="scroler-img" src="jeans.jfif">
+                        
+                    </a>
+                </div>
+<!----------------------------------child-of-grid-boxes-end-here------------------------------------->
             </div>
+<!--------------------------------------Grid-boxes-end-here------------------------------------------>
+
             <div class="banner">
                 <img class="image-banner" src="sale banner.png">
             </div>
+            <div class="category">
+                <img class="category-img" src="category.PNG">
+            </div>
         </div>
-        
+<!---------------------------------------MAin-container-end------------------------------------------->
     </div>
+<!---------------------------------------container-end-here------------------------------------------->
 
 
 
