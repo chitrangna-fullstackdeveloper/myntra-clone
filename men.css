@@ -66,7 +66,7 @@ a{
 .nav-li-a{
     text-decoration: none;
     color: black;
-    font-weight: 600;
+    font-weight: 400;
 }
 .nav-li-a:hover{
     text-decoration: underline;
@@ -116,128 +116,25 @@ a{
 }
 /*icon-end-here*/
 .container{
-    margin-top: 10rem;
-    
-
-}
-.main{
-
-}
-/*image-class-container*/
-.image{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    
-}
-/*child-of-image-container*/
-#sale{
-    width: 90%;
-    height:100px;
-
-}
-
-.summer-sale-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top:2rem;
-}
-.sumer-img{
-    width: 80rem;
-}
-.budget-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.budget-image{
-    width: 80rem;
-}
-.friendly{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.budget-friendly{
-    width: 80rem;
-}
-.grid-boxes{
-    display: grid;
-    gap: 0.1rem;
-    grid-template-columns:2fr 2fr 2fr 2fr 2fr 2fr;
-    grid-template-rows:260px;
-    padding: 1rem 1rem;
-    place-content: center;
-
-}
-.boxes{
-    border-radius: 0.2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.scroler-img{
-    border-radius: 1rem;
-    height:15rem;
-    width: 13rem;
+    flex-direction: column;
+    gap: 2rem;
 }
 .banner{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.image-banner{
-    width: 80rem;
-}
-.category{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.category-img{
-    width: 80rem;
-}
-.grid-box-30{
-    padding: 1rem 2rem;
-    display: grid;
-    grid-template-rows:repeat(5,280px);
-    grid-template-columns: repeat(6,1fr);
-    place-content: center;
-}
-.grid3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-footer{
-    width: 100%;
-    display: flex;
-    gap: 4rem;
-    font-size: 1rem;
-    background-color: whitesmoke;
-
-}
-.link-cont{
-    display: flex;
-    flex-direction: column;
-    width: 80vw;
-    margin: auto 100px;
-}
-.online-shopping{
-    display: flex;
-    flex-direction: column;
     gap: 2rem;
-    font-size: 1rem;
-    
+    margin-top: 4rem;
 }
-.footer-nav{
+.h1{
     display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
+    padding: 1rem 2rem;
 }
-h2{
-    font-size: 1rem;
+h1{
+    font-weight: 450;
+}
+.h1category{
+    display: flex;
+    padding: 1rem 2rem;
 }
