@@ -9,8 +9,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
-    height: 100%;
+
 }
 header{
     display: flex;
@@ -86,7 +85,7 @@ a{
 
 /*input*/
 .search-int{
-    width: 30rem;
+    width: 20rem;
     padding: 0.6rem 0.5rem;
     border: none;
     border-radius: 0.2rem;
@@ -117,72 +116,4 @@ a{
     font-size: 0.8rem;
 }
 /*icon-end-here*/
-.container {
-  background-color: #fde2e2;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Login Box */
-.login-box {
-    margin-top: 4rem;
-  width: 380px;
-  height: 500px;
-  background: white;
-}
-
-/* Top Image */
-.top-img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-
-/* Form */
-.form {
-  padding: 20px;
-}
-
-.form h2 {
-  margin-bottom: 15px;
-}
-
-.form input[type="text"] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-}
-
-/* Terms */
-.terms {
-  display: flex;
-  gap: 10px;
-  font-size: 12px;
-  margin-bottom: 15px;
-}
-
-.terms span {
-  color: hotpink;
-}
-
-/* Button */
-button {
-  width: 100%;
-  padding: 12px;
-  background: gray;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-/* Help text */
-.help {
-  margin-top: 10px;
-  font-size: 12px;
-}
-
-.help span {
-  color: hotpink;
-}
+    
