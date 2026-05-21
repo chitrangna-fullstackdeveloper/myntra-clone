@@ -5,6 +5,10 @@
     font-family: 'inter';
 
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 body{
     margin: 0;
     padding: 0;
@@ -49,7 +53,7 @@ header{
     justify-content: center;
     align-items: center;
     font-size: 0.9rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 .text2{
     display: flex;
